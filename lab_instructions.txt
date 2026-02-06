@@ -5,21 +5,25 @@ In this hw, you will work on the sample Comp484 site to determine where lists ar
 1.	Examine site navigation
 			a.	Applies to: all pages
 			b.	Examine the top-level navigation for the site. Currently all links are enclosed in an individual paragraph. Is this semantically sound? 
+				==> NO, this should be an unordered list (they are related and should be grouped together, but they don't need to be navigated in a specific order)
 			c. If not, organize the links into the appropriate list type
 			
 2.	Examine HTML timeline
 			a.	Applies to: intro.html
 			b.	In the HTML timeline section examine the paragraphs containing relevant dates. Is this the best semantic grouping for this content?
+				==> NO, this should be ordered list (they are related and should be grouped together, and time is a sequence of events, so there should be ordering)
 			c. If not, organize the timeline into the appropriate list type
 
 3.	Examine doctype grouping
 			a.	Applies to: syntax.html
 			b.	Find the section on doctypes
 			c. Examine the three doctypes and their examples. Would a list be the best semantic presentation of this content?
+				==> YES, we can use list to group them together because they are related (in an unordered manner).
 			d. If so, organize the links into the appropriate list type
 			
 4.	Examine HTML terms
 			a.	Applies to: reference.html
 			b.	Find the section for HTML terms
 			c. Examine the terms and their descriptions. Is this the best semantic grouping for the content?
+				==> NO, it should be description/definition list because its a list of items where one part is term and the other part is description. 
 			d. If not, organize the links into the appropriate list type
